@@ -1,0 +1,32 @@
+$lightYellow: #fcffa6;
+$lightGreen: #c1ffd7;
+$lightBlue: #b5deff;
+$lightPurple: #cab8ff;
+$lightRed: #ffadad;
+$colorArray: (
+	"l-yellow": $lightYellow,
+	"l-green": $lightGreen,
+	"l-blue": $lightBlue,
+	"l-purple": $lightPurple,
+	"l-red": $lightRed,
+);
+@each $colorName, $color in $colorArray {
+	.#{$colorName} {
+		background-color: $color;
+	}
+}
+* {
+	margin: 0;
+	box-sizing: border-box;
+	background-color: #212529;
+	color: black;
+}
+a,
+a:active,
+a:link,
+a:hover {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
