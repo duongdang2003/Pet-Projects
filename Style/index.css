@@ -18,6 +18,46 @@
   background-color: #ffadad;
 }
 
+.mt-10 {
+  margin-top: 10vh !important;
+}
+
+.mt-20 {
+  margin-top: 20vh !important;
+}
+
+.mt-30 {
+  margin-top: 30vh !important;
+}
+
+.mt-40 {
+  margin-top: 40vh !important;
+}
+
+.mt-50 {
+  margin-top: 50vh !important;
+}
+
+.mt-60 {
+  margin-top: 60vh !important;
+}
+
+.mt-70 {
+  margin-top: 70vh !important;
+}
+
+.mt-80 {
+  margin-top: 80vh !important;
+}
+
+.mt-90 {
+  margin-top: 90vh !important;
+}
+
+.mt-100 {
+  margin-top: 100vh !important;
+}
+
 * {
   margin: 0;
   -webkit-box-sizing: border-box;
@@ -35,5 +75,34 @@ a:hover {
 
 a:visited {
   text-decoration: none;
+}
+
+.align-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+
+@font-face {
+  font-family: "digital";
+  src: url(digital.woff);
+}
+
+.orbitron {
+  font-family: Orbitron;
+}
+
+.back {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-weight: bold;
 }
 /*# sourceMappingURL=index.css.map */
